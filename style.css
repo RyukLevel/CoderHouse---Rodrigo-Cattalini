@@ -5,4 +5,20 @@ body{
 }
 h1{
     color: blue;
+    background-color: orange;
+}
+p{
+    font-weight: bolder;
+    background-color: blue;
+    color: #fafafa;
+    font-size: 30px;
+    transition: 1s;
+}
+
+p:hover{
+    background-color: yellow;
+    color: black;
+    transition: 1s;
+    font-size: 40px;
+    padding: 20px;
 }
